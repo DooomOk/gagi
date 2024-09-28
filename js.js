@@ -9,7 +9,7 @@ document.getElementById('continue-btn').addEventListener('click', function() {
     clickCount++;
 
     if (clickCount === 1) {
-        textElement.innerHTML = "<span class='smaller-text'>I've been thinking about this a lot lately, but I'm not really sure how to ask. Should I go to your house and ask for your family's approval? That's part of the problem. I’m too shy to ask because I feel like I don't have anything to show your family. I'm broke right now and don't have much to offer yet... though I do have a job now, so I think I'll get there soon, haha.</span>";
+        textElement.innerHTML = "<span class='smaller-text'>I've been thinking about this a lot lately, but I'm not really sure how to ask. Should I go to your house and ask for your family's approval? I’m too shy to ask because I feel like I don't have anything to show your family. I'm broke right now and don't have much to offer yet... though I do have a job now, so I think I'll get there soon, haha.</span>";
     } else if (clickCount === 2) {
         textElement.innerHTML = "<span class='smaller-text'>I really like you. I like your eyes, your smile, your voice. I like everything about you. You make me feel something I never thought was possible. You make me feel warm, safe, and important. You make me feel like I can take on anything the world throws at me. I’ve never felt like this before, so, uhmm...</span>";
     } else if (clickCount === 3) {
